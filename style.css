@@ -36,14 +36,13 @@ main{
 section{
     text-align: left;
     margin-bottom: 20px;
+    padding: 15px;
 }
 section > p{
     padding: 20px;
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    font-size: 25px;
+    width: 400px;
+    margin:30px;
+    font-size: 2em;
 }
 .joaninha{
     color: white;
@@ -53,6 +52,15 @@ section > p{
 .joaninha > p{
     background-color: rgba(0, 0, 0, 0.26);
 }
+.carta{
+    color: white;
+    background: green url(imagens/background002.jpg) center center no-repeat fixed;
+
+}
+.carta > p{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
 
 footer{
     background-color: black;
